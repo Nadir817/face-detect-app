@@ -1,0 +1,9 @@
+.Tilt {
+  background: 0.1;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
