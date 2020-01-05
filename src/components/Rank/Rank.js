@@ -1,12 +1,12 @@
 import React from "react";
 
-function Rank() {
+const Rank = props => {
   return (
     <div>
-      <div className="white f3">{"Ned, your current rank is..."}</div>
-      <div className="white f1 pt3">{"#5"}</div>
+      <div className="white f3">{`${props.name}, your current rank is...`}</div>
+      <div className="white f1 pt3">{props.entries}</div>
     </div>
   );
-}
+};
 
 export default Rank;
